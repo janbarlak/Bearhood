@@ -6,7 +6,6 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="bearhood.css">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='shortcut icon' type='image/x-icon' href='pics\favicon.ico'>
   </head>
@@ -40,9 +39,9 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
 
-          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="courses.html">Courses</a></li>
+          <li class="active"><a href="courses.html">Courses</a></li>
           <li><a href="contact.html">Contact</a></li>
  
              <!-- Use this to separate a new link -->
@@ -65,29 +64,68 @@
   <!-- Forest image -->
 <!--   <div class="container">
 
-  <img src="forest.jpg" class="img-responsive" alt="Responsive image" >
+  <img src="forest.jpg" class="img-responsive" alt="forest" >
   </div>
  -->
-
+ 
    <!-- OTHER STUFF ON THE PAGE -->
 
   <div class="container">
-    <div class="jumbotron">
-      <h1>Welcome to Bearhood</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div id="div-logo-about" class="row">
+      <div class=" text-center col-lg-2 col-md-2 col-sm-2 col-xs-12">
+        <p align="center"><img id="logo-about" src="pics\bearhood_final1cisty.png" class="img-responsive float-center" alt="logo"></p>
+       </div>
+      <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+        <p align="center">
+        <h5 id="languages"> Overcome  your foreign language anxiety with an intensive individual 3-month English, French or Slovak course</h5>
+        <br>
+        <p>A. in comfort of your home or workplace</p> 
+        <p>B. via Skype</p> 
+        <br>
+        <p>In the course you can engage in:</p> 
+        <br>
+        <p>12 weeks - at least 90mins each week with a welcome lesson  free of charge </p>
+         <p>Enriching in-field lessons (available for students) </p> 
+        </p>
+      </div>
     </div>
+    <br>
+    <hr class="col-xs-12">
 
+    <p>In case of your interest feel free to contact us via email or phone.</p>
+    <p>Rather shy people may use our "Shy form" ;) </p>
+    <br>
+
+  <form action="https://formspree.io/email@domain.tld" method="POST" />
+    <div class="form-row">
+      <div class=" form-group col-lg-6 col-md-6 col-sm-6 col-sm-6">
+        <label>First name</label>
+        <input class="form-control" type="text" name="first" required>
+      </div>
+      <div class=" form-group col-lg-6 col-md-6 col-sm-6 col-sm-6">
+        <label>Last name</label>
+        <input class="form-control" type="text" name="last" required>
+
+      </div>
+      <div class=" form-group col-lg-12 col-md-12 col-sm-12 col-sm-12">
+        <label>Your Contact</label>
+        <input class="form-control" type="text" name="contact" placeholder="Email or telephone number" required>
+
+      </div>
+
+    <div class="form-row">
+      <div class=" form-group col-lg-6 col-md-6 col-sm-6 col-sm-6">
+    <button type="submit" class="btn btn-primary">Submit</button>
   </div>
-  <div class="container">
-    <h2>More Stuff</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
 
-  </div>
+  </form>
 
+ </div>
 
 
+
+   
   <!-- Need to have JQuery and Javascript for DropDown Actions to work -->
 
   <script
